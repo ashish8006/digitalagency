@@ -1,0 +1,119 @@
+.powering-next-gen-companies {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.second-blog-post-child {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.second-blog-post {
+  width: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.second-blog-post-item {
+  align-self: stretch;
+  height: 26.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.second-blog-post1 {
+  width: 117px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 1px 0 0;
+  box-sizing: border-box;
+}
+.first-blog-post-child {
+  height: 26.5px;
+  width: 124.7px;
+  position: relative;
+}
+.mask-group-icon {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.mask-group-wrapper {
+  width: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.help-menu-footer {
+  align-self: stretch;
+  height: 24.2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.divfixed {
+  width: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.first-blog-post {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-xl);
+}
+.blog-frame,
+.landing-page-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.blog-frame {
+  width: 868px;
+  padding: 0 var(--padding-xl) 121px;
+  gap: 25px 0;
+  max-width: 100%;
+}
+.landing-page-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-10xl) 0 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--regular-13-size);
+  color: var(--color-black);
+  font-family: var(--bold-16);
+}
+@media screen and (max-width: 750px) {
+  .first-blog-post {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

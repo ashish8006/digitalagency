@@ -1,0 +1,42 @@
+.group-vector-graphic-child {
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+.app-development {
+  position: relative;
+  font-weight: 500;
+}
+.ipsum-dolor-sit {
+  width: 243px;
+  flex: 1;
+  position: relative;
+  font-size: var(--bold-16-size);
+  color: var(--color-midnightblue-200);
+  display: flex;
+  align-items: center;
+}
+.frame-app-development,
+.group-vector-graphic {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-app-development {
+  flex: 1;
+  gap: 10px 0;
+}
+.group-vector-graphic {
+  height: 191px;
+  gap: 20px 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-midnightblue-100);
+  font-family: var(--bold-16);
+}
+@media screen and (max-width: 450px) {
+  .app-development {
+    font-size: var(--bold-16-size);
+  }
+}

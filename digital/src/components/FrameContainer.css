@@ -1,0 +1,121 @@
+.help-menu-text {
+  height: 31px;
+  width: 21px;
+  position: relative;
+}
+.help-menu {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.f-r-a-m-e,
+.vector-icon {
+  display: flex;
+  justify-content: flex-start;
+}
+.vector-icon {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 10px;
+}
+.f-r-a-m-e {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.about {
+  position: relative;
+}
+.group-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.services {
+  position: relative;
+}
+.group-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.projects {
+  position: relative;
+}
+.group-frame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.label {
+  position: relative;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.button,
+.button-base {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.button-base {
+  margin-top: -4px;
+  margin-bottom: -4px;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-lg) var(--padding-base)
+    var(--padding-5xl);
+}
+.button {
+  height: 48px;
+  background-color: var(--color-slateblue);
+  align-items: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.frame-container,
+.frame-projects-showcase {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.frame-projects-showcase {
+  justify-content: flex-start;
+  gap: 0 40px;
+  text-align: center;
+  font-size: var(--bold-16-size);
+  color: var(--color-darkslategray);
+}
+.frame-container {
+  width: 1220px;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) var(--padding-144xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--bold-16);
+}
+@media screen and (max-width: 750px) {
+  .frame-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-projects-showcase {
+    gap: 0 20px;
+  }
+}

@@ -1,0 +1,71 @@
+.frame-child {
+  width: 322px;
+  height: 233px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.realtime-analytics1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.the-results-have1 {
+  width: 282px;
+  position: relative;
+  font-size: var(--regular-13-size);
+  line-height: 20px;
+  color: var(--color-midnightblue-200);
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.realtime-analytics-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.frame-item {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  margin: 0 !important;
+  right: 20px;
+  bottom: 20px;
+  object-fit: contain;
+  z-index: 2;
+}
+.rectangle-parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-midnightblue-100);
+  font-family: var(--bold-16);
+}
+@media screen and (max-width: 1050px) {
+  .rectangle-parent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .realtime-analytics1 {
+    font-size: var(--font-size-lgi);
+  }
+}
